@@ -1,0 +1,20 @@
+.feed {
+    &__imagenes {
+        background-image: url("/assets/img/img-l.jpg");
+        background-size: cover;
+        background-position: center;
+        height: 10rem;
+    }
+    &__titulosimg {
+        margin: 15px 0;
+    }
+    &__descripcion {
+        margin: 20px 10px;
+    }
+}
+
+@media (min-width: 992px) {
+    .feed__imagenes {
+        height: 30rem;
+    }
+}

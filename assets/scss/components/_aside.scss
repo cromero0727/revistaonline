@@ -1,0 +1,22 @@
+.aside {
+    &__imagenes {
+        background-image: url("/assets/img/img-l.jpg");
+        background-size: cover;
+        background-position: center;
+        height: 10rem;
+    }
+    &__lista {
+        text-align: center;
+        list-style: none;
+        display: inline-block;
+    }
+    &__lista li {
+        display: inline;
+        color: #fff;
+        background-color: blue;
+        font-size: 12px;
+        padding: 2px;
+        margin-right: 2px;
+        margin-top: 10px;
+    }
+}
